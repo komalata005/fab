@@ -37,7 +37,7 @@ export function Footer() {
               <NavLinks />
             </nav>
           </div>
-          <div className="relative flex items-center self-stretch p-4 -mx-4 transition-colors group hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
+          {/* <div className="relative flex items-center self-stretch p-4 -mx-4 transition-colors group hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
             <div className="relative flex items-center justify-center flex-none w-24 h-24">
               <QrCodeBorder className="absolute inset-0 w-full h-full transition-colors stroke-gray-300 group-hover:stroke-cyan-500" />
               <Image src={qrCode} alt="" unoptimized />
@@ -53,7 +53,7 @@ export function Footer() {
                 Scan the QR code to download the app from the App Store.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col items-center pt-8 pb-12 border-t border-gray-200 md:flex-row-reverse md:justify-between md:pt-6">
           <form className="flex justify-center w-full md:w-auto">
