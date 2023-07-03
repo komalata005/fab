@@ -198,10 +198,10 @@ export function SecondaryFeatures() {
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
             What we Offer
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
+          {/* <p className="mt-2 text-lg text-gray-600">
             With typical market returns, you have to start young to secure your
             future. With Team Fab, it’s never too late to build your nest egg.
-          </p>
+          </p> */}
         </div>
         <ul
           role="list"

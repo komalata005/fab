@@ -18,7 +18,7 @@ export default function Home() {
         <title>Team Fab - Providing Solutions for a Connected World.</title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="Information Technology services company."
         />
       </Head>
       <Header />

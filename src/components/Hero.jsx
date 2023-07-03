@@ -356,9 +356,7 @@ export function Hero() {
             Empowering Growth through Cutting-edge Tech
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              By leveraging insights from our network of industry insiders,
-              you’ll know exactly when to buy to maximize profit, and exactly
-              when to sell to avoid painful losses.
+            Information Technology services provider company.
             </p>
             <div className="flex flex-wrap mt-8 gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
