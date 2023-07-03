@@ -12,39 +12,48 @@ import { PhoneFrame } from '@/components/PhoneFrame'
 const people = [
   {
     name: 'Faiza',
-    role: 'Senior Developer',
+    role: 'Project Manager/Senior Fullstack Developer',
     imageUrl:
-      'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      'https://media.licdn.com/dms/image/D4D03AQFyy2QA8gWIjQ/profile-displayphoto-shrink_800_800/0/1685466826234?e=1694044800&v=beta&t=sVqNV4xaShidbAy7KTpuYka0p1WVV1lSQqHR7unz3kQ',
+    bio: 'Managing project timelines, budgets, and resources, coordinating with stakeholders, overseeing project delivery, and contributing as a senior fullstack developer.',
     twitterUrl: '#',
     linkedinUrl: '#',
+  },
+  {
+    name: 'Adnan Ata',
+    role: 'Quality Assurance Engineer',
+    imageUrl:
+      'https://media.licdn.com/dms/image/C4D03AQGRnwj9VFWzGg/profile-displayphoto-shrink_800_800/0/1517052269313?e=1694044800&v=beta&t=YiqvXNVDbfhdQml93ug8vY4Fm8HnD0TBgL5TPb9RC04',
+    bio: 'Conducting testing activities, creating test plans and test cases, executing manual and automated tests, identifying and reporting bugs, ensuring the quality and reliability of the software.',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/muhammad-adnan-613a7123/',
   },
   {
     name: 'sadaf',
-    role: 'Senior Developer',
+    role: 'Solution Architect/Tech Lead',
     imageUrl:
-      'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+    bio: 'Designing and implementing technical solutions, providing architectural guidance, leading the development team, ensuring technical excellence, and driving the overall solution delivery..',
     twitterUrl: '#',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/sadafsiddiquii/ ',
   },
   {
     name: 'Komal',
-    role: 'Senior Developer',
+    role: 'Frontend Developer',
     imageUrl:
-      'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      'https://media.licdn.com/dms/image/D4D03AQH589SHOKd49Q/profile-displayphoto-shrink_800_800/0/1687704890665?e=1694044800&v=beta&t=Bh9FyOM7vM45LeWjGWRKOTMtAy8UdR7GwCvdESiFYqk',
+    bio: 'Developing user-facing interfaces, implementing UI/UX designs, ensuring responsiveness and cross-browser compatibility, and collaborating with the backend team to integrate frontend components..',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Tooba',
-    role: 'Senior Developer',
+    role: 'Backend Developer',
     imageUrl:
-      'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    bio: 'Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.',
+      'https://media.licdn.com/dms/image/D4D35AQEyodRwoWMMrg/profile-framedphoto-shrink_800_800/0/1626180597765?e=1688968800&v=beta&t=tGM_PxPpsRewoeSKQgvRwLHJ5-R7Gss0EIAno9drI0o',
+    bio: 'Developing server-side logic, designing and implementing APIs, managing databases, optimizing performance and scalability, and collaborating with the frontend team for seamless integration..',
     twitterUrl: '#',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/tooba-fazal/ ',
   },
   // More people...
 ]
