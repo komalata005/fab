@@ -132,7 +132,7 @@ export function Header() {
             {/* <Button href="/login" variant="outline" className="hidden lg:block">
              
             </Button> */}
-            <Button href="#" className="hidden lg:block">
+            <Button href="mailto: teamfabofficial@gmail.com" className="hidden lg:block">
               Contact us
             </Button>
           </div>

@@ -8,14 +8,26 @@ import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
-import logoBbc from '@/images/logos/bbc.svg'
-import logoCbs from '@/images/logos/cbs.svg'
-import logoCnn from '@/images/logos/cnn.svg'
-import logoFastCompany from '@/images/logos/fast-company.svg'
-import logoForbes from '@/images/logos/forbes.svg'
-import logoHuffpost from '@/images/logos/huffpost.svg'
-import logoTechcrunch from '@/images/logos/techcrunch.svg'
-import logoWired from '@/images/logos/wired.svg'
+// import logoBbc from '@/images/logos/bbc.svg'
+// import logoCbs from '@/images/logos/cbs.svg'
+// import logoCnn from '@/images/logos/cnn.svg'
+// import logoFastCompany from '@/images/logos/fast-company.svg'
+// import logoForbes from '@/images/logos/forbes.svg'
+// import logoHuffpost from '@/images/logos/huffpost.svg'
+// import logoTechcrunch from '@/images/logos/techcrunch.svg'
+// import logoWired from '@/images/logos/wired.svg'
+import Glogo from '@/images/logos/glogo.svg'
+import logoJira from '@/images/logos/jira.svg'
+import logoAsana from '@/images/logos/asana.svg'
+import logoAws from '@/images/logos/aws.svg'
+import logoGraphql from '@/images/logos/graphql.svg'
+import logoAi from '@/images/logos/AI.svg'
+import logoGit from '@/images/logos/git.svg'
+import logoJs from '@/images/logos/js.svg'
+import logoNest from '@/images/logos/nest.svg'
+import logoNext from '@/images/logos/next.svg'
+import logoNode from '@/images/logos/node.svg'
+import logoTypescript from '@/images/logos/typescript.svg'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -369,26 +381,33 @@ export function Hero() {
           </div>
           <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
             <p className="text-sm font-semibold text-center text-gray-900 lg:text-left">
-              Our Clients
+              Tool we used
             </p>
             <ul
               role="list"
-              className="flex flex-wrap justify-center max-w-xl mx-auto mt-8 gap-x-10 gap-y-8 lg:mx-0 lg:justify-start"
+              className="flex text-left mt-8  gap-y-8 lg:justify-start"
             >
-              {[
-                ['Forbes', logoForbes],
-                ['TechCrunch', logoTechcrunch],
-                ['Wired', logoWired],
-                ['CNN', logoCnn, 'hidden xl:block'],
-                ['BBC', logoBbc],
-                ['CBS', logoCbs],
-                ['Fast Company', logoFastCompany],
-                ['HuffPost', logoHuffpost, 'hidden xl:block'],
-              ].map(([name, logo, className]) => (
+              {/* {[ */}
+                {/* // ['jira', logoJira],
+                // ['aws', logoAws],
+                // ['graphql', logoGraphql],
+                // ['typescript', logoTypescript],
+                // ['js', logoJs],
+                // ['node', logoNode],
+                // ['AI', logoAi,],
+                // ['asana', logoAsana],
+                // ['git', logoGit],
+                // ['next', logoNext],
+                // ['nest', logoNest], */}
+                {/* ['glogo', logoGroup], */}
+                <Image src={Glogo} className="h-60 text-start" unoptimized />
+
+
+              {/* ].map(([name, logo, className]) => (
                 <li key={name} className={clsx('flex', className)}>
-                  <Image src={logo} alt={name} className="h-8" unoptimized />
+                  <Image src={logo} alt={name} className="h-10" unoptimized />
                 </li>
-              ))}
+              ))} */}
             </ul>
           </div>
         </div>
