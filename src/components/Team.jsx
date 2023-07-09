@@ -16,8 +16,8 @@ const people = [
     imageUrl:
       'https://media.licdn.com/dms/image/D4D03AQFyy2QA8gWIjQ/profile-displayphoto-shrink_800_800/0/1685466826234?e=1694044800&v=beta&t=sVqNV4xaShidbAy7KTpuYka0p1WVV1lSQqHR7unz3kQ',
     bio: 'Managing project timelines, budgets, and resources, coordinating with stakeholders, overseeing project delivery, and contributing as a senior fullstack developer.',
-    twitterUrl: '#',
-    linkedinUrl: '#',
+    // twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/faiza-aziz-khan-76912092/',
   },
   {
     name: 'Adnan Ata',
@@ -25,16 +25,16 @@ const people = [
     imageUrl:
       'https://media.licdn.com/dms/image/C4D03AQGRnwj9VFWzGg/profile-displayphoto-shrink_800_800/0/1517052269313?e=1694044800&v=beta&t=YiqvXNVDbfhdQml93ug8vY4Fm8HnD0TBgL5TPb9RC04',
     bio: 'Conducting testing activities, creating test plans and test cases, executing manual and automated tests, identifying and reporting bugs, ensuring the quality and reliability of the software.',
-    twitterUrl: '#',
+    // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/muhammad-adnan-613a7123/',
   },
   {
     name: 'sadaf',
     role: 'Solution Architect/Tech Lead',
     imageUrl:
-      'https://lh3.google.com/u/0/d/1JtDa1YWOFqm1bsbvC4Q0iQyZWITvLAbk=w2782-h1354-iv1',
+    'https://lh3.google.com/u/0/d/1JtDa1YWOFqm1bsbvC4Q0iQyZWITvLAbk=w2782-h1354-iv1',
     bio: 'Designing and implementing technical solutions, providing architectural guidance, leading the development team, ensuring technical excellence, and driving the overall solution delivery..',
-    twitterUrl: '#',
+    // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/sadafsiddiquii/ ',
   },
   {
@@ -43,8 +43,8 @@ const people = [
     imageUrl:
       'https://media.licdn.com/dms/image/D4D03AQH589SHOKd49Q/profile-displayphoto-shrink_800_800/0/1687704890665?e=1694044800&v=beta&t=Bh9FyOM7vM45LeWjGWRKOTMtAy8UdR7GwCvdESiFYqk',
     bio: 'Developing user-facing interfaces, implementing UI/UX designs, ensuring responsiveness and cross-browser compatibility, and collaborating with the backend team to integrate frontend components..',
-    twitterUrl: '#',
-    linkedinUrl: '#',
+    // twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/komal-ata/',
   },
   {
     name: 'Tooba',
@@ -52,7 +52,7 @@ const people = [
     imageUrl:
       'https://i.etsystatic.com/43931970/r/il/199a55/5020316406/il_fullxfull.5020316406_9nah.jpg',
     bio: 'Developing server-side logic, designing and implementing APIs, managing databases, optimizing performance and scalability, and collaborating with the frontend team for seamless integration..',
-    twitterUrl: '#',
+    // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/tooba-fazal/ ',
   },
   // More people...
@@ -81,14 +81,14 @@ export function Team() {
               <p className="text-base leading-7 text-gray-600">{person.role}</p>
               <p className="mt-4 text-base leading-7 text-gray-600">{person.bio}</p>
               <ul role="list" className="flex mt-6 gap-x-6">
-                <li>
+                {/* <li>
                   <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">Twitter</span>
                     <svg className="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
                     </svg>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href={person.linkedinUrl} className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">LinkedIn</span>
