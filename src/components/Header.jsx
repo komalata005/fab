@@ -105,14 +105,14 @@ export function Header() {
                             {/* <MobileNavLink href="#features">
                               Features
                             </MobileNavLink> */}
-                            <MobileNavLink href="#reviews">
-                              Reviews
+                            <MobileNavLink href="#Projects">
+                              Projects
                             </MobileNavLink>
                                 <MobileNavLink href="#team">
                               Team
                             </MobileNavLink>
-                            <MobileNavLink href="#Projects">
-                              Projects
+                            <MobileNavLink href="#reviews">
+                              Reviews
                             </MobileNavLink>
                             {/* <MobileNavLink href="#faqs">FAQs</MobileNavLink> */}
                           </div>
