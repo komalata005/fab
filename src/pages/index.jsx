@@ -5,7 +5,7 @@ import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { Pricing } from '@/components/Pricing'
+import { Projects } from '@/components/Projects'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
 import { Team } from '@/components/Team'
@@ -29,7 +29,7 @@ export default function Home() {
         {/* <CallToAction /> */}
         <Reviews />
         <Team />
-        <Pricing />
+        <Projects />
         <Faqs />
       </main>
       <Footer />

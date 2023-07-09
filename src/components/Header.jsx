@@ -111,8 +111,8 @@ export function Header() {
                                 <MobileNavLink href="#team">
                               Team
                             </MobileNavLink>
-                            <MobileNavLink href="#pricing">
-                              Pricing
+                            <MobileNavLink href="#Projects">
+                              Projects
                             </MobileNavLink>
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
@@ -131,9 +131,9 @@ export function Header() {
             </Popover>
             {/* <Button href="/login" variant="outline" className="hidden lg:block">
             </Button> */}
-            <Button href="mailto: teamfabofficial@gmail.com" className="hidden lg:block">
+            {/* <Button href="mailto: teamfabofficial@gmail.com" className="hidden lg:block">
               Contact us
-            </Button>
+            </Button> */}
           </div>
         </Container>
       </nav>

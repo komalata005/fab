@@ -348,20 +348,24 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 max-w-2xl mx-auto lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-            Empowering Growth through Cutting-edge Tech
+            {/* Empowering Growth through Cutting-edge Tech */}
+            Digital Solution of your <em className='text-[#52B3D0]'>Business</em>
             </h1>
             <p className="mt-6 text-lg text-gray-600">
             Information Technology services provider company.
             </p>
             <div className="flex flex-wrap mt-8 gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
-              <Button
+              {/* <Button
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 variant="outline"
               >
                 <PlayIcon className="flex-none w-6 h-6" />
                 <span className="ml-2.5">Watch the video</span>
-              </Button>
+              </Button> */}
+                <Button href="mailto: teamfabofficial@gmail.com" className="hidden lg:block bg-[#52B3D0] px-8">
+              Contact us
+            </Button>
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
