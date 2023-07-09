@@ -20,16 +20,17 @@ export default function Home() {
           name="description"
           content="Information Technology services company."
         />
+<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet" />
       </Head>
       <Header />
       <main>
         <Hero />
+        <Projects />
         {/* <PrimaryFeatures /> */}
         <SecondaryFeatures />
         {/* <CallToAction /> */}
         <Reviews />
         <Team />
-        <Projects />
         <Faqs />
       </main>
       <Footer />

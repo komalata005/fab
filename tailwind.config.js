@@ -38,6 +38,8 @@ module.exports = {
       }),
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        'itim': ['Itim', 'sans-serif'],
+
       },
       keyframes: {
         'fade-in': {

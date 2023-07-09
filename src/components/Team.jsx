@@ -60,7 +60,7 @@ const people = [
 
 export function Team() {
   return (
-    <div id="Team">
+    <div id="team">
   <div className="py-24 bg-white md:py-32 lg:py-40">
       <div className="grid grid-cols-1 px-6 mx-auto max-w-7xl gap-x-8 gap-y-20 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl mx-auto lg:mx-0">

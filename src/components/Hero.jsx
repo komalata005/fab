@@ -2,7 +2,7 @@ import { useId, useRef, useState } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 import { motion, useInView, useMotionValue } from 'framer-motion'
-
+import styles from '../styles/mystyle.module.scss';
 import { AppScreen } from '@/components/AppScreen'
 import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
@@ -349,10 +349,10 @@ export function Hero() {
           <div className="relative z-10 max-w-2xl mx-auto lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
             {/* Empowering Growth through Cutting-edge Tech */}
-            Digital Solution of your <em className='text-[#52B3D0]'>Business</em>
+            Digital Solution of your <span style={{ fontFamily: 'Itim, sans-serif' }} className={['text-[#52B3D0]', styles.itim].join(' ')}>Business</span>
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-            Information Technology services provider company.
+            Customer satisfaction is at the core of everything we do. We pride ourselves on providing exceptional service and building long-term partnerships with our clients.
             </p>
             <div className="flex flex-wrap mt-8 gap-x-6 gap-y-4">
               {/* <AppStoreLink /> */}
@@ -377,7 +377,7 @@ export function Hero() {
             </div>
           </div>
           <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
-            <p className="text-sm font-semibold text-center text-gray-900 lg:text-left">
+            <p className="text-lg font-semibold text-center text-gray-900 lg:text-left">
               Tool we used
             </p>
             <ul
