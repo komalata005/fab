@@ -114,7 +114,7 @@ export function Header() {
                             <MobileNavLink href="#Projects">
                               Projects
                             </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
+                            {/* <MobileNavLink href="#faqs">FAQs</MobileNavLink> */}
                           </div>
                           {/* <div className="flex flex-col gap-4 mt-8">
                             <Button href="/login" variant="outline">

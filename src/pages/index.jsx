@@ -31,7 +31,7 @@ export default function Home() {
         {/* <CallToAction /> */}
         <Reviews />
         <Team />
-        <Faqs />
+        {/* <Faqs /> */}
       </main>
       <Footer />
     </>
