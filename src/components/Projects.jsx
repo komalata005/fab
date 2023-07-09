@@ -6,7 +6,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logomark } from '@/components/Logo'
 import p1 from '../images/projects/p1.svg'
-
+import p2 from '../images/projects/p2.svg'
 
 const plans = [
   {
@@ -278,9 +278,7 @@ export function Projects() {
         </div>
 
         <div className="mt-16 space-y-16">
-          {/* {features.map((feature, featureIdx) => ( */}
             <div
-              // key={feature.name}
               className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
             >
               <div
@@ -291,7 +289,7 @@ export function Projects() {
               >
                 <h3 className="text-lg font-medium text-gray-900">Darsi</h3>
                 <p className="mt-2 text-sm text-gray-500">DO NOT COMPROMISE ON QUALITY OF EDUCATION. CONSULT US FOR PUBLICATIONS</p>
-                <a className='text-blue-400' href='https://darsi-client-nextjs-xi.vercel.app/' >Click here</a>
+                <a className='text-blue-400' href='https://darsi.pk/' >Click here</a>
               </div>
               <div
                 className={(
@@ -304,7 +302,34 @@ export function Projects() {
                 </div>
               </div>
             </div>
-          {/* ))} */}
+        </div>
+        <div className="mt-16 space-y-16">
+            <div
+              className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
+            >
+              <div
+                className={(
+                 'lg:col-start-8 xl:col-start-9',
+                  'mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4'
+                )}
+              >
+                <h3 className="text-lg font-medium text-gray-900">Groupshop</h3>
+                <p className="mt-2 text-sm text-gray-500">THE NEW WAY
+TO SHOP
+YOUR FAVORITE BRANDS</p>
+                <a className='text-blue-400' href='https://www.groupshop.com/' >Click here</a>
+              </div>
+              <div
+                className={(
+                   'lg:col-start-1',
+                  'flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8'
+                )}
+              >
+                <div className="overflow-hidden rounded-lg aspect-h-2 aspect-w-5">
+                <Image src={p2} className="object-cover object-center" unoptimized alt='logos' />
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
