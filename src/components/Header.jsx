@@ -116,12 +116,12 @@ export function Header() {
                             </MobileNavLink>
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
-                          <div className="flex flex-col gap-4 mt-8">
+                          {/* <div className="flex flex-col gap-4 mt-8">
                             <Button href="/login" variant="outline">
                               Log in
                             </Button>
                             <Button href="#">Download the app</Button>
-                          </div>
+                          </div> */}
                         </Popover.Panel>
                       </>
                     )}

@@ -8,14 +8,6 @@ import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
-// import logoBbc from '@/images/logos/bbc.svg'
-// import logoCbs from '@/images/logos/cbs.svg'
-// import logoCnn from '@/images/logos/cnn.svg'
-// import logoFastCompany from '@/images/logos/fast-company.svg'
-// import logoForbes from '@/images/logos/forbes.svg'
-// import logoHuffpost from '@/images/logos/huffpost.svg'
-// import logoTechcrunch from '@/images/logos/techcrunch.svg'
-// import logoWired from '@/images/logos/wired.svg'
 import Glogo from '@/images/logos/glogo.svg'
 import logoJira from '@/images/logos/jira.svg'
 import logoAsana from '@/images/logos/asana.svg'
@@ -28,6 +20,7 @@ import logoNest from '@/images/logos/nest.svg'
 import logoNext from '@/images/logos/next.svg'
 import logoNode from '@/images/logos/node.svg'
 import logoTypescript from '@/images/logos/typescript.svg'
+import heroimg from '@/images/3.jpg'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -267,14 +260,16 @@ function AppDemo() {
       : ((activeValue - previousValue) / previousValue) * 100
 
   return (
-    <AppScreen>
+    // <AppScreen>
       <AppScreen.Body>
-        <div className="p-4">
+                <Image src={heroimg} className="h-auto text-start" unoptimized alt='img' />
+
+        {/* <div className="p-4">
           <div className="flex gap-2">
             <div className="text-xs leading-6 text-gray-500">
-              Tailwind Labs, Inc.
+            Team fab
             </div>
-            <div className="text-sm text-gray-900">$CSS</div>
+            <div className="text-sm text-gray-900">Happy Clients</div>
             <svg viewBox="0 0 24 24" className="w-6 h-6 ml-auto" fill="none">
               <path
                 d="M5 12a7 7 0 1 1 14 0 7 7 0 0 1-14 0ZM12 9v6M15 12H9"
@@ -323,7 +318,7 @@ function AppDemo() {
               />
             </div>
             <div className="px-4 py-2 mt-4 text-sm font-semibold text-center text-white rounded-lg bg-cyan-500">
-              Trade
+              Contact Us
             </div>
             <div className="mt-3 text-sm divide-y divide-gray-100">
               <div className="flex justify-between py-1">
@@ -340,9 +335,9 @@ function AppDemo() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </AppScreen.Body>
-    </AppScreen>
+    // </AppScreen>
   )
 }
 
@@ -383,7 +378,7 @@ export function Hero() {
             </p>
             <ul
               role="list"
-              className="flex text-left mt-8  gap-y-8 lg:justify-start"
+              className="flex mt-8 text-left gap-y-8 lg:justify-start"
             >
               {/* {[ */}
                 {/* // ['jira', logoJira],
@@ -398,7 +393,7 @@ export function Hero() {
                 // ['next', logoNext],
                 // ['nest', logoNest], */}
                 {/* ['glogo', logoGroup], */}
-                <Image src={Glogo} className="h-60 text-start" unoptimized />
+                <Image src={Glogo} className="h-60 text-start" unoptimized alt='logos' />
 
 
               {/* ].map(([name, logo, className]) => (
