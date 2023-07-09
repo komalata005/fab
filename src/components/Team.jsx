@@ -32,7 +32,7 @@ const people = [
     name: 'sadaf',
     role: 'Solution Architect/Tech Lead',
     imageUrl:
-      'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+      'https://lh3.google.com/u/0/d/1JtDa1YWOFqm1bsbvC4Q0iQyZWITvLAbk=w2782-h1354-iv1',
     bio: 'Designing and implementing technical solutions, providing architectural guidance, leading the development team, ensuring technical excellence, and driving the overall solution delivery..',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/sadafsiddiquii/ ',
@@ -50,7 +50,7 @@ const people = [
     name: 'Tooba',
     role: 'Backend Developer',
     imageUrl:
-      'https://media.licdn.com/dms/image/D4D35AQEyodRwoWMMrg/profile-framedphoto-shrink_800_800/0/1626180597765?e=1688968800&v=beta&t=tGM_PxPpsRewoeSKQgvRwLHJ5-R7Gss0EIAno9drI0o',
+      'https://i.etsystatic.com/43931970/r/il/199a55/5020316406/il_fullxfull.5020316406_9nah.jpg',
     bio: 'Developing server-side logic, designing and implementing APIs, managing databases, optimizing performance and scalability, and collaborating with the frontend team for seamless integration..',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/tooba-fazal/ ',
