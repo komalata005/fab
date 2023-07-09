@@ -29,7 +29,7 @@ export function Footer() {
             <div className="flex items-center text-gray-900">
               <Logomark className="flex-none w-10 h-10 fill-cyan-500" />
               <div className="ml-4">
-                <p className="text-base font-semibold">Team Fab</p>
+                {/* <p className="text-lg font-semibold" style={{ fontFamily: 'Itim, sans-serif' }}>Team Fab</p> */}
                 <p className="mt-1 text-sm">Solutions for a Connected World</p>
               </div>
             </div>

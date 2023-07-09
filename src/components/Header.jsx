@@ -54,8 +54,8 @@ export function Header() {
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home" className="flex items-center">
               <Logo className="w-16 h-16" />
-              <h5 className="font-medium fill-gray-900">Team fab
-      </h5>
+              {/* <h5 className="font-medium fill-gray-900">Team fab
+      </h5> */}
       {/* <Image src="/images/logos/logo.png" alt="logo" width={300} height={100} /> */}
             </Link>
             <div className="hidden lg:flex lg:gap-10">

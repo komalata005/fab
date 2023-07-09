@@ -1,24 +1,27 @@
 import { useState } from 'react'
 import { RadioGroup } from '@headlessui/react'
 import clsx from 'clsx'
-
+import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logomark } from '@/components/Logo'
+import p1 from '../images/projects/p1.svg'
+
 
 const features = [
   {
-    name: 'Minimal and thoughtful',
+    name: 'Darsi',
     description:
-      'Our laptop sleeve is compact and precisely fits 13" devices. The zipper allows you to access the interior with ease, and the front pouch provides a convenient place for your charger cable.',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-01.jpg',
-    imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+      'DO NOT COMPROMISE ON QUALITY OF EDUCATION. CONSULT US FOR PUBLICATIONS',
+    imageSrc:
+    p1,
+    imageAlt: 'Darsi',
   },
   {
     name: 'Refined details',
     description:
       'We design every detail with the best materials and finishes. This laptop sleeve features durable canvas with double-stitched construction, a felt interior, and a high quality zipper that hold up to daily use.',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg',
+    imageSrc: 'p2',
     imageAlt: 'Detail of zipper pull with tan leather and silver rivet.',
   },
 ]
@@ -313,8 +316,9 @@ export function Projects() {
                   'flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8'
                 )}
               >
-                <div className="overflow-hidden bg-gray-100 rounded-lg aspect-h-2 aspect-w-5">
-                  <img src={feature.imageSrc} alt={feature.imageAlt} className="object-cover object-center" />
+                <div className="overflow-hidden rounded-lg aspect-h-2 aspect-w-5">
+                <Image src={p1} className="object-cover object-center" unoptimized alt='logos' />
+                  {/* <img src={features.imageSrc} alt={feature.imageAlt} className="object-cover object-center" /> */}
                 </div>
               </div>
             </div>
