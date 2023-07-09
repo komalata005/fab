@@ -8,24 +8,6 @@ import { Logomark } from '@/components/Logo'
 import p1 from '../images/projects/p1.svg'
 
 
-const features = [
-  {
-    name: 'Darsi',
-    description:
-      'DO NOT COMPROMISE ON QUALITY OF EDUCATION. CONSULT US FOR PUBLICATIONS',
-    imageSrc:
-    p1,
-    imageAlt: 'Darsi',
-  },
-  {
-    name: 'Refined details',
-    description:
-      'We design every detail with the best materials and finishes. This laptop sleeve features durable canvas with double-stitched construction, a felt interior, and a high quality zipper that hold up to daily use.',
-    imageSrc: 'p2',
-    imageAlt: 'Detail of zipper pull with tan leather and silver rivet.',
-  },
-]
-
 const plans = [
   {
     name: 'Starter',
@@ -285,7 +267,7 @@ export function Projects() {
         </div>
       </Container> */}
       <Container>
-      <div className="bg-white">
+      <div >
       <div className="max-w-2xl px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Projects</h2>
@@ -296,33 +278,33 @@ export function Projects() {
         </div>
 
         <div className="mt-16 space-y-16">
-          {features.map((feature, featureIdx) => (
+          {/* {features.map((feature, featureIdx) => ( */}
             <div
-              key={feature.name}
+              // key={feature.name}
               className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
             >
               <div
                 className={(
-                  featureIdx % 2 === 0 ? 'lg:col-start-1' : 'lg:col-start-8 xl:col-start-9',
+                 'lg:col-start-8 xl:col-start-9',
                   'mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4'
                 )}
               >
-                <h3 className="text-lg font-medium text-gray-900">{feature.name}</h3>
-                <p className="mt-2 text-sm text-gray-500">{feature.description}</p>
+                <h3 className="text-lg font-medium text-gray-900">Darsi</h3>
+                <p className="mt-2 text-sm text-gray-500">DO NOT COMPROMISE ON QUALITY OF EDUCATION. CONSULT US FOR PUBLICATIONS</p>
+                <a className='text-blue-400' href='https://darsi-client-nextjs-xi.vercel.app/' >Click here</a>
               </div>
               <div
                 className={(
-                  featureIdx % 2 === 0 ? 'lg:col-start-6 xl:col-start-5' : 'lg:col-start-1',
+                   'lg:col-start-1',
                   'flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8'
                 )}
               >
                 <div className="overflow-hidden rounded-lg aspect-h-2 aspect-w-5">
                 <Image src={p1} className="object-cover object-center" unoptimized alt='logos' />
-                  {/* <img src={features.imageSrc} alt={feature.imageAlt} className="object-cover object-center" /> */}
                 </div>
               </div>
             </div>
-          ))}
+          {/* ))} */}
         </div>
       </div>
     </div>
